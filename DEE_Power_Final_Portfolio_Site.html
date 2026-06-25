@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>DEE Power & Engineering Ltd</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:system-ui,-apple-system,sans-serif;color:#1b2430;line-height:1.6;background:#fff}
+nav{position:fixed;top:0;width:100%;background:#081a2d;color:#fff;padding:18px 6%;display:flex;justify-content:space-between;align-items:center;z-index:100}
+nav ul{display:flex;gap:24px;list-style:none}
+nav a{color:#fff;text-decoration:none}
+.hero{min-height:100vh;background:linear-gradient(rgba(8,26,45,.82),rgba(8,26,45,.88)),url('https://images.unsplash.com/photo-1509391366360-2e959784a276?q=80&w=1800&auto=format&fit=crop') center/cover;padding:140px 6% 80px;color:white;display:flex;align-items:center}
+.hero h1{font-size:clamp(3rem,6vw,5rem);line-height:1.05;max-width:900px}
+.hero p{max-width:700px;font-size:1.2rem;margin:24px 0}
+.btn{display:inline-block;padding:15px 28px;border-radius:10px;text-decoration:none;font-weight:700}
+.primary{background:#f28c28;color:white}
+.secondary{border:1px solid white;color:white;margin-left:12px}
+.trust{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:18px;margin-top:50px}
+.trust div{padding:18px;border:1px solid rgba(255,255,255,.25);backdrop-filter:blur(6px)}
+section{padding:100px 6%}
+.container{max-width:1200px;margin:auto}
+h2{font-size:clamp(2rem,4vw,3rem);color:#081a2d;margin-bottom:20px}
+.services,.projects,.why{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:24px}
+.card{background:#fff;border-radius:18px;padding:28px;box-shadow:0 10px 35px rgba(0,0,0,.08)}
+.stats{background:#081a2d;color:#fff}
+.stats-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:20px;text-align:center}
+.num{font-size:3.5rem;color:#f28c28;font-weight:800}
+.cta{background:#081a2d;color:#fff;text-align:center}
+footer{background:#050d18;color:#fff;padding:50px 6%;text-align:center}
+.badge{color:#f28c28;font-weight:700;text-transform:uppercase;letter-spacing:1px}
+</style>
+</head>
+<body>
+
+<nav>
+<div><strong>DEE Power & Engineering Ltd</strong></div>
+<ul>
+<li><a href="#services">Services</a></li>
+<li><a href="#projects">Projects</a></li>
+<li><a href="#about">About</a></li>
+<li><a href="#contact">Contact</a></li>
+</ul>
+</nav>
+
+<section class="hero">
+<div>
+<div class="badge">Trusted Engineering Partner</div>
+<h1>Reliable Electrical Engineering & Power Solutions for Businesses and Industries</h1>
+<p>Professional electrical installations, industrial power systems, maintenance services and engineering solutions across Nigeria.</p>
+<a href="#" class="btn primary">Request a Quote</a>
+<a href="#" class="btn secondary">Contact Us</a>
+
+<div class="trust">
+<div>500+ Projects Completed</div>
+<div>Certified Engineering Team</div>
+<div>Industrial & Commercial Expertise</div>
+<div>Safety-Focused Operations</div>
+</div>
+</div>
+</section>
+
+<section id="about">
+<div class="container">
+<h2>Engineering Excellence Built on Reliability</h2>
+<p>DEE Power & Engineering Ltd delivers high-quality electrical engineering services designed to improve operational efficiency, safety, and reliability. We support businesses, industries, and institutions with professional electrical solutions tailored to their needs.</p>
+</div>
+</section>
+
+<section id="services" style="background:#f7f9fc">
+<div class="container">
+<h2>Our Services</h2>
+<div class="services">
+<div class="card"><h3>Electrical Installations</h3><p>Commercial Wiring • Industrial Wiring • Distribution Systems</p></div>
+<div class="card"><h3>Power Solutions</h3><p>Generator Installation • Solar Systems • Backup Solutions</p></div>
+<div class="card"><h3>Industrial Services</h3><p>Maintenance • Preventive Checks • Fault Diagnosis</p></div>
+<div class="card"><h3>Engineering Consultancy</h3><p>Site Assessment • Project Planning • Technical Advisory</p></div>
+</div>
+</div>
+</section>
+
+<section>
+<div class="container">
+<h2>Why Choose Us</h2>
+<div class="why">
+<div class="card"><h3>Experienced Team</h3><p>Qualified professionals with proven industry experience.</p></div>
+<div class="card"><h3>Quality Workmanship</h3><p>Precision-driven engineering execution and standards.</p></div>
+<div class="card"><h3>Safety Compliance</h3><p>Safety-first culture across every project.</p></div>
+<div class="card"><h3>Timely Delivery</h3><p>Projects completed efficiently and professionally.</p></div>
+</div>
+</div>
+</section>
+
+<section class="stats">
+<div class="container">
+<div class="stats-grid">
+<div><div class="num">500+</div>Projects Delivered</div>
+<div><div class="num">98%</div>Client Satisfaction</div>
+<div><div class="num">24/7</div>Technical Support</div>
+<div><div class="num">10+</div>Years Experience</div>
+</div>
+</div>
+</section>
+
+<section id="projects">
+<div class="container">
+<h2>Selected Engineering Projects</h2>
+<div class="projects">
+<div class="card"><h3>Industrial Facility Upgrade</h3><p>Power system modernization for manufacturing operations.</p></div>
+<div class="card"><h3>Commercial Building Installation</h3><p>Complete electrical infrastructure deployment.</p></div>
+<div class="card"><h3>Solar Backup Deployment</h3><p>Renewable energy integration and backup reliability.</p></div>
+<div class="card"><h3>Maintenance Contract</h3><p>Ongoing support for industrial facilities.</p></div>
+</div>
+</div>
+</section>
+
+<section class="cta" id="contact">
+<div class="container">
+<h2 style="color:white">Powering Reliable Operations Through Engineering Excellence</h2>
+<p>Partner with an experienced engineering company for safe, efficient and dependable power solutions.</p><br>
+<a href="#" class="btn primary">Request a Quote</a>
+</div>
+</section>
+
+<footer>
+<h3>DEE Power & Engineering Ltd</h3>
+<p>Electrical Engineering • Power Solutions • Industrial Services</p>
+<p>Email: info@deepower.com | Phone: +234 XXX XXX XXXX</p>
+</footer>
+
+</body>
+</html>
